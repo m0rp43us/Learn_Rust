@@ -1,0 +1,8 @@
+[package]
+name = "learn_Rust"
+version = "0.1.0"
+edition = "2021"
+#![allow(non_snake_case)]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
