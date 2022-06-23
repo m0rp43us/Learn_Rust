@@ -17,5 +17,7 @@ pub fn run(){
     //push string
     another_hello.push_str(hello);
     println!("{}",another_hello);
-    println!("Capacity : {}",another_hello.capacity())
+    println!("Capacity : {}",another_hello.capacity());
+    println!("Is empty : {}",another_hello.is_empty());
+    println!("contains World ? : {}",another_hello.contains("World"))
 }
