@@ -19,5 +19,6 @@ pub fn run(){
     println!("{}",another_hello);
     println!("Capacity : {}",another_hello.capacity());
     println!("Is empty : {}",another_hello.is_empty());
-    println!("contains World ? : {}",another_hello.contains("World"))
+    println!("contains World ? : {}",another_hello.contains("World"));
+    println!("replace : {}",another_hello.replace("World", "there"));
 }
